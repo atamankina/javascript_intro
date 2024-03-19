@@ -29,20 +29,17 @@ var deleted_element = tiere.splice(1,1);
 console.log(deleted_element);
 console.log(tiere);
 
-//Mehrere Elemente aus dem Array entfernen
-var myNumbers = [1, 2, 3, 4, 5];
-myNumbers.forEach(num => console.log(num *2));
-var deleted_numbers = myNumbers.splice(1,3);
-console.log(deleted_numbers);
-console.log(myNumbers);
-
-
+// Fuer jedes Element eine bestimmte Logik ausfuehren
 tiere.forEach(tier => console.log(tier));
 
 //Ein Element in einem Array suchen
 var hund = tiere.find(tier => tier === "Loewe");
 console.log(hund);
 
-
-
-
+//Mehrere Elemente aus dem Array entfernen
+var myNumbers = [1, 2, 3, 4, 5];
+// Fuer jedes Element eine bestimmte Logik ausfuehren
+myNumbers.forEach(num => console.log(num *2));
+var deleted_numbers = myNumbers.splice(1,3);
+console.log(deleted_numbers);
+console.log(myNumbers);
