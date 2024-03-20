@@ -83,3 +83,26 @@ for (let i = 0; i < namen.length; i++) {
 ```
 
 In diesem Beispiel startet `i` bei 0 (da Arrays in JavaScript bei 0 beginnen), und die Schleife läuft, solange `i` kleiner als die Länge des Arrays `namen` ist. Mit jedem Durchlauf wird `i` um 1 erhöht, sodass auf jedes Element im Array zugegriffen und es ausgegeben werden kann.
+
+## `while`Schleifen
+
+Eine `while`-Schleife in JavaScript ermöglicht es, einen Codeblock wiederholt auszuführen, solange eine bestimmte Bedingung wahr (`true`) ist. Die grundlegende Syntax einer `while`-Schleife lautet wie folgt:
+
+```jsx
+while (Bedingung) {
+  // Codeblock, der wiederholt ausgeführt wird
+}
+
+```
+
+### Wie `while`Schleifen funktionieren:
+
+1. **Bedingung prüfen**: Vor jedem Durchlauf der Schleife wird die Bedingung geprüft.
+2. **Code-Ausführung**: Wenn die Bedingung `true` ergibt, wird der Codeblock innerhalb der Schleife ausgeführt.
+3. **Wiederholung**: Nach der Ausführung des Codeblocks wird die Bedingung erneut geprüft. Wenn sie immer noch `true` ist, wird der Codeblock erneut ausgeführt. Dieser Prozess wiederholt sich, bis die Bedingung `false` ergibt.
+4. **Beendigung**: Sobald die Bedingung `false` ergibt, wird die Ausführung der Schleife beendet, und das Programm fährt mit dem Code fort, der auf die Schleife folgt.
+
+### Wichtig:
+
+- Die Bedingung sollte irgendwann während der Ausführung der Schleife auf `false` gesetzt werden. Andernfalls würde die Schleife unendlich laufen, was zu einem "Frozen" oder "Crash" des Programms führen kann.
+- Die Bedingungsvariable muss in der Regel vor der Schleife initialisiert und innerhalb der Schleife modifiziert werden, um den Abbruch der Schleife sicherzustellen.
